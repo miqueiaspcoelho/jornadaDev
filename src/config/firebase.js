@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import {getFirestore} from 'firebase/firestore/lite';
+
 const firebaseConfig = {
   apiKey: "AIzaSyA7_qZeQTFfpoILaTxd0j9lHznWh3bTuTM",
   authDomain: "tiktok---jornadadev-b05fb.firebaseapp.com",
