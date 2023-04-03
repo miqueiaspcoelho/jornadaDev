@@ -1,1 +1,1 @@
-add a firebase configuration file named firebase.js
+add a firebase configuration file named firebase.js 
