@@ -1,0 +1,20 @@
+//1. Mude a extensão do arquivo para .js
+//2.Mude as configurações para as suas configurações
+
+import { initializeApp } from "firebase/app";
+import {getFirestore} from 'firebase/firestore/lite';
+
+const firebaseConfig = {
+  apiKey: "Sua-chave",
+  authDomain: "Dominio",
+  projectId: "Id projeto",
+  storageBucket: "Bucket Projeto",
+  messagingSenderId: "Id de envio de mensagem",
+  appId: "Id do app"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+export default db;
